@@ -1,6 +1,6 @@
-let int1 = 41;
-let int2 = 91;
-let int3 = -1489;
+const int1 = 41;
+const int2 = 91;
+const int3 = -1489;
 
 if (int1 >= 50 && int1 <= 99 && int2 >= 50 && int2 <= 99) {
   console.log("Both are true");
@@ -40,9 +40,9 @@ else console.log("All are false");
 //     EXERCISE 3
 
 console.log("EXERCISE 3-----------------");
-let a = 33;
-let b = -456;
-let c = 122;
+const a = 33;
+const b = -456;
+const c = 122;
 
 if (a > b && a > c) {
   console.log(a, "is the largest number");
@@ -59,3 +59,6 @@ if (int1 > int2 && int1 > int3) {
 } else {
   console.log(int3, "is the largest number");
 }
+
+//             EXERCISE 4
+console.log("------------------------EXERCISE 4");
