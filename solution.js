@@ -64,3 +64,9 @@ if (int1 > int2 && int1 > int3) {
 console.log("------------------------EXERCISE 4");
 
 const str = "thon";
+
+if (str.includes("Py")) {
+  console.log(str);
+} else {
+  console.log("Py" + str + "Py");
+}
