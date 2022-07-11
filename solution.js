@@ -70,3 +70,10 @@ if (str.includes("Py")) {
 } else {
   console.log("Py" + str + "Py");
 }
+
+// EXERCISE 5
+console.log("EXERCISE 5 --------------------");
+
+if (int1 + int2 >= 50 && int1 + int2 <= 80) {
+  console.log("65");
+} else console.log("80");
